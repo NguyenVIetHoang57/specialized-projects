@@ -23,7 +23,7 @@ const Header = () => {
         <div className='container-xxl'>
           <div className='row align-items-center'>
             <div className='col-2'>
-              <h2><Link className='text-white' to='/' >Thien Duong</Link></h2>
+              <h2><Link className='text-white'>Thien Duong</Link></h2>
             </div>
             <div className='col-5'>
               <div className='input-group'>
