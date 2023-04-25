@@ -61,7 +61,7 @@ const OurStore = (props) => {
                             <h3 className="filter-title">Random Product</h3>
                         </div>
                     </div>
-                    <h1>Testtttt </h1>
+                    
                     <div className="col-9"></div>
                 </div>
             </div >
