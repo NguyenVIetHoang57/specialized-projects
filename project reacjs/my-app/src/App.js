@@ -8,6 +8,10 @@ import Contact from "./pages/Contact";
 import OurStore from "./pages/OurStore";
 import Blogs from "./pages/Blogs";
 import Compare from "./pages/Compare";
+import Favourite from "./pages/Favourite";
+import Login from "./pages/Login";
+import Forgotpassword from "./pages/Forgotpassword";
+import Signup from "./pages/Signup";
 function App() {
   return (
     <>
@@ -20,6 +24,10 @@ function App() {
             <Route path="store" element={<OurStore />} />
             <Route path="blogs" element={<Blogs />} />
             <Route path="compare" element={<Compare />} />
+            <Route path="favourite" element={<Favourite/>}></Route>
+            <Route path="Login" element={<Login/>}></Route>
+            <Route path="forgot-password" element={<Forgotpassword/>}></Route>
+            <Route path="signup" element={<Signup/>}></Route>
           </Route>
         </Routes>
       </BrowserRouter>
