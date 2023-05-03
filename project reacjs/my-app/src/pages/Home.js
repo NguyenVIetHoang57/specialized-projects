@@ -351,12 +351,21 @@ const Home = () => {
             <div className="col-12">
               <h3 className="section-heading">Our Latest Blogs</h3>
             </div>
-            <div className="row">
-              <BlogCard />
-              <BlogCard />
-              <BlogCard />
-              <BlogCard />
-            </div>
+            
+          </div>
+          <div className="row">
+             <div className="col-3">
+                <BlogCard/>
+             </div>
+             <div className="col-3">
+                <BlogCard/>
+             </div>
+             <div className="col-3">
+                <BlogCard/>
+             </div>
+             <div className="col-3">
+                <BlogCard/>
+             </div>
           </div>
         </div>
       </section >
