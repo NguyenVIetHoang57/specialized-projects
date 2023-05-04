@@ -1,25 +1,35 @@
 import React, { useState } from 'react'
 import ProductCard from "../components/ProductCard";
 import ReactStars from "react-rating-stars-component";
-
+import ReactImageZoom from 'react-image-zoom';
 
 const ProductDetails = () => {
 
     const [order, setorder] = useState(true);
-
-  return (
+    const props = {width: 400, height: 500, zoomWidth: 500, img: "https://images.app.goo.gl/UfgfigRgX77Mr27y9"};
+    return (
     <>
         <div className='main-product-wrapper py-5 home-wrapper-2'>
-            <div className='container-xxl p-3 bg-white'>
+            <div className='container-xxl '>
                 <div className='row'>
                     <div className='col-6'>
                         <div className='main-product-image'>
                             <div>
-                                
+                            <ReactImageZoom {...props} />
                             </div>
                         </div>
+                        <div className='other-product-images d-flex flex-wrap gap-15 '>
+                            <div>
+                                <img src='images/watch.jpg'></img>
+                            </div>
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
                     </div>
-                    <div className='col-6'></div>
+                    <div className='col-6'>
+                        <div className='main'></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -30,7 +40,7 @@ const ProductDetails = () => {
                     <h4 className='description-wrapper'>Description</h4>
                        <div className='bg-white p-3'>
                             
-                            <p className='bg-white'>ABCXYZ</p>
+                            <p className='bg-white'>sdsvv</p>
                        </div>
                     </div>
                 </div>
