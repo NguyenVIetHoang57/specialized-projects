@@ -12,6 +12,13 @@ import Favourite from "./pages/Favourite";
 import Login from "./pages/Login";
 import Forgotpassword from "./pages/Forgotpassword";
 import Signup from "./pages/Signup";
+import Resetpassword from "./pages/Resetpassword";
+import BlogDetails from "./pages/BlogDetails";
+import TermAndCondition from "./pages/TermAndCondition";
+import Refund from "./pages/Refund";
+import Shipping from "./pages/Shipping";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import ProductDetails from "./pages/ProductDetails";
 function App() {
   return (
     <>
@@ -28,6 +35,13 @@ function App() {
             <Route path="Login" element={<Login/>}></Route>
             <Route path="forgot-password" element={<Forgotpassword/>}></Route>
             <Route path="signup" element={<Signup/>}></Route>
+            <Route path="resetpassword" element={<Resetpassword/>}></Route>
+            <Route path="blog/: id" element={<BlogDetails/>}></Route>
+            <Route path="TermAndCondition" element={<TermAndCondition/>}></Route>
+            <Route path="refund" element={<Refund/>}></Route>
+            <Route path="shipping" element={<Shipping/>}></Route>
+            <Route path="Privacy" element={<PrivacyPolicy/>}></Route>
+            <Route path="store/product/:id" element={<ProductDetails/>}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

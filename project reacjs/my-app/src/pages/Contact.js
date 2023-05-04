@@ -17,8 +17,8 @@ const Contact = () => {
             <div className="contact-inner-wrapper d-flex justify-content-between">
               <div>
                 <h4 className="contact-title mb-4">Contact</h4>
-                <form>
-                  <div className="d-flex flex-column gap-15"> 
+                <form className="d-flex flex-column gap-15">
+                  <div > 
                     <input type="text" className="form-control" placeholder='Name'></input>
                   </div>
                   <div>
