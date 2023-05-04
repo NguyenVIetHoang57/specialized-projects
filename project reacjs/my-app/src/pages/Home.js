@@ -3,9 +3,13 @@ import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
-import SpecialProduct from "../components/SpecialProduct";
-const Home = () => {
-  return (
+import SpecialProduct from "../components/SpecialProduct"; 
+import mainbanner from "../images/main-banner-1.jpg"
+import catbanner from "../images/catbanner-01.jpg"
+import catbanner2 from "../images/catbanner-02.jpg"
+import catbanner3 from "../images/catbanner-03.jpg"
+import catbanner4 from "../images/catbanner-04.jpg"
+const Home = () => {  return (
     <>
       <section className="home-wrapper-1 py-5">
         <div className="container-xxl">
@@ -13,7 +17,7 @@ const Home = () => {
             <div className="col-6">
               <div className="main-banner position-relative ">
                 <img
-                  src="images/main-banner-1.jpg"
+                  src= {mainbanner}
                   className="img-fluid rounded-3"
                   alt="main banner"
                 />
@@ -31,7 +35,7 @@ const Home = () => {
               <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
                 <div className="small-banner position-relative ">
                   <img
-                    src="images/catbanner-01.jpg"
+                    src= {catbanner}
                     className="img-fluid rounded-3"
                     alt="main banner"
                   />
@@ -45,7 +49,7 @@ const Home = () => {
                 </div>
                 <div className="small-banner position-relative ">
                   <img
-                    src="images/catbanner-02.jpg"
+                    src= {catbanner2}
                     className="img-fluid rounded-3"
                     alt="main banner"
                   />
@@ -59,7 +63,7 @@ const Home = () => {
                 </div>
                 <div className="small-banner position-relative ">
                   <img
-                    src="images/catbanner-03.jpg"
+                    src= {catbanner3}
                     className="img-fluid rounded-3"
                     alt="main banner"
                   />
@@ -73,7 +77,7 @@ const Home = () => {
                 </div>
                 <div className="small-banner position-relative ">
                   <img
-                    src="images/catbanner-04.jpg"
+                    src= {catbanner4}
                     className="img-fluid rounded-3"
                     alt="main banner"
                   />
@@ -90,7 +94,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="home-wrapper-2 py-5">
+      {/* <section className="home-wrapper-2 py-5">
         <div className="cotainer-xxl">
           <div className="row">
             <div className="col-12">
@@ -200,7 +204,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="featured- wrapper py-5 home-wrapper-2">
         <div className="cotainer-xxl">
           <div className="row">
@@ -214,7 +218,7 @@ const Home = () => {
           </div>
         </div>
       </section >
-      <section className="popular- wrapper py-5 home-wrapper-2">
+      {/* <section className="popular- wrapper py-5 home-wrapper-2">
         <div className="cotainer-xxl">
           <div className="row">
             <div className="col-3">
@@ -279,7 +283,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section >
+      </section > */}
       <section className="special- wrapper py-5 home-wrapper-2">
         <div className="cotainer-xxl">
           <div className="row">
@@ -309,7 +313,7 @@ const Home = () => {
           </div>
         </div>
       </section >
-      <section className="marque- wrapper home-wrapper-2 py-5">
+      {/* <section className="marque- wrapper home-wrapper-2 py-5">
         <div className="cotainer-xxl">
           <div className="row">
             <div className="col-12">
@@ -344,7 +348,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section className="blog- wrapper py-5 home-wrapper-2">
         <div className="cotainer-xxl">
           <div className="row">

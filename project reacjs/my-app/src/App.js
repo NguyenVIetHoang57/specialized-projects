@@ -19,6 +19,9 @@ import Refund from "./pages/Refund";
 import Shipping from "./pages/Shipping";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ProductDetails from "./pages/ProductDetails";
+import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
+import Payment from "./pages/Payment";
 function App() {
   return (
     <>
@@ -42,6 +45,9 @@ function App() {
             <Route path="shipping" element={<Shipping/>}></Route>
             <Route path="Privacy" element={<PrivacyPolicy/>}></Route>
             <Route path="store/product/:id" element={<ProductDetails/>}></Route>
+            <Route path="cart" element={<Cart/>}></Route>
+            <Route path="checkout" element={<Checkout/>}></Route>
+            <Route path="payment" element={<Payment/>}></Route>
           </Route>
         </Routes>
       </BrowserRouter>

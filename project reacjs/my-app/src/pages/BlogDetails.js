@@ -1,7 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 import { HiOutlineArrowLeft } from 'react-icons/hi';
-import BlogCard from '../components/BlogCard';
+import Meta from '../components/Meta';
+import blog from "../images/blog-1.jpg";
 const BlogDetails = () => {
   return (
     <>
@@ -16,7 +17,7 @@ const BlogDetails = () => {
                         <h3 className='title'>
                             Title of blogs
                         </h3>
-                        <img  src='public/images/blog-1.jpg' className='img-fluid w-100 my-4' alt='blog'>
+                        <img  src= {blog} className='img-fluid w-100 my-4' alt='blog'>
                         
                         </img>
                         <p>

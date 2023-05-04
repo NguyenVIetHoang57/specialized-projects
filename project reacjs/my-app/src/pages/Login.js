@@ -6,9 +6,7 @@ import { Link } from 'react-router-dom';
 const Login = () => {
   return (
 <>
-        {/* <Meta title = {"Login"}></Meta>
-        <BreadCrumb title={"Login"}></BreadCrumb> */}
-
+       
    
         <div className='login-wrapper py-5 home-wrapper-2'>
             <div className='container-xxl'>
