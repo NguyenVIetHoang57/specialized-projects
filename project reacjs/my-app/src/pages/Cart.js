@@ -1,8 +1,9 @@
- import React from 'react'
- import watch from '../images/watch.jpg' 
- import { BsFillTrashFill } from 'react-icons/bs'
+import React from 'react'
+import watch from '../images/watch.jpg' 
+import { BsFillTrashFill } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
- const Cart = () => {
+
+const Cart = () => {
    return (
     <>
     <section className='cart-wrapper home-wrapper-2'>
@@ -49,7 +50,7 @@ import { Link } from 'react-router-dom'
                 </div>
                 <div className='col-12 py-2 mt-4'>
                     <div className='d-flex justify-content-between align-itema-baseline'>
-                    <Link to="/product" className='button'>Continue to shopping</Link>
+                    <Link to="/store" className='button'>Continue to shopping</Link>
                     </div>
                     <div className='d-flex flex-column align-items-end '>
                         <h4>SubTotal: $100</h4>
